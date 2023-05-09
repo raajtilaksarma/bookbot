@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "book-gpt-demo"
+version = "0.1.0"
+description = ""
+authors = ["raajs <raajs@packt.com>"]
+readme = "README.md"
+packages = [{include = "book_gpt_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+llama-index = "^0.6.1"
+langchain = "^0.0.161"
+streamlit = "^1.22.0"
+PyPDF2 = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
